@@ -12,7 +12,7 @@ app.use("/api/user", router);
 app.use("/api/blog", blogRouter);
 
 const url =
-  "mongodb+srv://priyeshanand9:TRr2MgufCfooKVil@cluster0.kwhssjk.mongodb.net/Blog?retryWrites=true&w=majority";
+  "mongodb+srv://priyeshanand9:<password>@cluster0.kjkojko.mongodb.net/Blog?retryWrites=true&w=majority";
 const options = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
